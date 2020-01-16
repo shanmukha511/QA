@@ -1,0 +1,4 @@
+splunk_hec_token=*****************
+splunk_hec_host=***********
+splunk_hec_index=*************
+select_namespace=/var/log/containers/**_dev_**.log
