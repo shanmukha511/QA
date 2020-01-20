@@ -292,6 +292,17 @@ data:
         flush_interval 5s
       </filter>
       
+      <filter tail.containers.var.log.containers.*mapit-api*.log>
+        @type concat
+        key log
+        timeout_label @SPLUNK
+        stream_identity_key stream
+        multiline_start_regexp /^[\
+        multiline_end_regexp /\\n$/
+        separator ""
+        flush_interval 5s
+      </filter>
+      
 
       # extract index fields and sourcetype for container logs
       <filter tail.containers.**>
