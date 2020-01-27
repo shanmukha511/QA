@@ -297,7 +297,7 @@ data:
         key log
         timeout_label @SPLUNK
         stream_identity_key stream
-        multiline_start_regexp /^[\
+        multiline_start_regexp /^\[\
         multiline_end_regexp /\\n$/
         separator ""
         flush_interval 5s
