@@ -246,6 +246,7 @@ data:
         multiline_end_regexp /\\n$/
         separator ""
         flush_interval 5s
+        use_first_timestamp true
       </filter>
       
       <filter tail.containers.var.log.containers.*axe-msvc-dal*.log>
@@ -257,6 +258,7 @@ data:
         multiline_end_regexp /\\n$/
         separator ""
         flush_interval 5s
+        use_first_timestamp true
       </filter>
       
       <filter tail.containers.var.log.containers.*axe-msvc-execution*.log>
@@ -268,6 +270,7 @@ data:
         multiline_end_regexp /\\n$/
         separator ""
         flush_interval 5s
+        use_first_timestamp true
       </filter>
       
       <filter  tail.containers.var.log.containers.*axe-msvc-tod-integration*.log>
@@ -279,6 +282,7 @@ data:
         multiline_end_regexp /\\n$/
         separator ""
         flush_interval 5s
+        use_first_timestamp true
       </filter>
      
       <filter tail.containers.var.log.containers.*axe-ui*.log>
@@ -290,6 +294,7 @@ data:
         multiline_end_regexp /\\n$/
         separator ""
         flush_interval 5s
+        use_first_timestamp true
       </filter>
       
       <filter tail.containers.var.log.containers.*mapit-api*.log>
@@ -301,6 +306,7 @@ data:
         multiline_end_regexp /\\n$/
         separator ""
         flush_interval 5s
+        use_first_timestamp true
       </filter>
       
       <filter tail.containers.var.log.containers.*adv-ai-0*.log>
@@ -312,6 +318,7 @@ data:
         multiline_end_regexp /\\n$/
         separator ""
         flush_interval 5s
+        use_first_timestamp true
       </filter>
       
       <filter tail.containers.var.log.containers.*arango-0*.log>
@@ -323,6 +330,7 @@ data:
         multiline_end_regexp /\\n$/
         separator ""
         flush_interval 5s
+        use_first_timestamp true
       </filter>
       
       <filter tail.containers.var.log.containers.*bpm-0*.log>
@@ -334,6 +342,7 @@ data:
         multiline_end_regexp /\\n$/
         separator ""
         flush_interval 5s
+        use_first_timestamp true
       </filter>
       
       <filter tail.containers.var.log.containers.*datasiv-*.log>
@@ -345,6 +354,7 @@ data:
         multiline_end_regexp /\\n$/
         separator ""
         flush_interval 5s
+        use_first_timestamp true
       </filter>
       
       <filter  tail.containers.var.log.containers.*dsiv-msvc-*.log>
@@ -356,6 +366,7 @@ data:
         multiline_end_regexp /\\n$/
         separator ""
         flush_interval 5s
+        use_first_timestamp true
       </filter>
       
       <filter tail.containers.var.log.containers.*engine-*.log>
@@ -367,6 +378,7 @@ data:
         multiline_end_regexp /\\n$/
         separator ""
         flush_interval 5s
+        use_first_timestamp true
       </filter>
       
       <filter tail.containers.var.log.containers.*express-*.log>
@@ -378,6 +390,7 @@ data:
         multiline_end_regexp /\\n$/
         separator ""
         flush_interval 5s
+        use_first_timestamp true
       </filter>
       
       <filter tail.containers.var.log.containers.*kafka-entity-operator*.log>
@@ -389,6 +402,7 @@ data:
         multiline_end_regexp /\\n$/
         separator ""
         flush_interval 5s
+        use_first_timestamp true
       </filter>
       
       <filter tail.containers.var.log.containers.*kafka-kafka*.log>
@@ -400,6 +414,7 @@ data:
         multiline_end_regexp /\\n$/
         separator ""
         flush_interval 5s
+        use_first_timestamp true
       </filter>
       
       <filter tail.containers.var.log.containers.*kafka-zookeeper*.log>
@@ -411,6 +426,7 @@ data:
         multiline_end_regexp /\\n$/
         separator ""
         flush_interval 5s
+        use_first_timestamp true
       </filter>
       
       <filter tail.containers.var.log.containers.*mongo-0*.log>
@@ -422,6 +438,7 @@ data:
         multiline_end_regexp /\\n$/
         separator ""
         flush_interval 5s
+        use_first_timestamp true
       </filter>
       
       <filter tail.containers.var.log.containers.*nifi-0*.log>
@@ -433,6 +450,7 @@ data:
         multiline_end_regexp /\\n$/
         separator ""
         flush_interval 5s
+        use_first_timestamp true
       </filter>
       
       <filter tail.containers.var.log.containers.*postgres-0*.log>
@@ -444,6 +462,7 @@ data:
         multiline_end_regexp /\\n$/
         separator ""
         flush_interval 5s
+        use_first_timestamp true
       </filter>
       
       <filter tail.containers.var.log.containers.*strimzi-cluster-operator*.log>
@@ -455,6 +474,7 @@ data:
         multiline_end_regexp /\\n$/
         separator ""
         flush_interval 5s
+        use_first_timestamp true
       </filter>
       
       <filter tail.containers.var.log.containers.*web-0*.log>
@@ -466,6 +486,7 @@ data:
         multiline_end_regexp /\\n$/
         separator ""
         flush_interval 5s
+        use_first_timestamp true
       </filter>
 
       # extract index fields and sourcetype for container logs
